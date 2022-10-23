@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Ubuntu:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Home */
+.head {
+  text-align: center;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(183deg 50% 40% / 12%)
+}
+
+.head h2 {
+  font-size: 2.1rem;
+  padding: 10px 0;
+}
+
+#card {
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.195);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20vw;
+  border-radius: 10px;
+  margin: 20px;
+  border-top: 7px solid black;
+}
+
+.c_head {
+  text-align: center;
+  padding: 10px 0;
+}
+.c_tittle{
+  text-align: center;
+}
+
+.time {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.c_icons {
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.c_icons svg{
+  cursor: pointer;
+}
+.c_icons svg:hover path{
+  color: rgba(51, 148, 153, 0.801)
+}
+.carlist{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
